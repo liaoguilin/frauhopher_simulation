@@ -21,9 +21,9 @@ HEADERS += \
 FORMS += \
     frauhopher_sim.ui
 
-INCLUDEPATH += "D:/dev/temp/gsl/GnuWin32/include"
-INCLUDEPATH += "D:/dev/CUSTOM_LIB/qt/QCustomPlot"
-LIBS += -L"D:/dev/temp/gsl/GnuWin32/lib" -llibgsl -llibgslcblas -lm
+#INCLUDEPATH += "D:/dev/temp/gsl/GnuWin32/include"
+#INCLUDEPATH += "D:/dev/CUSTOM_LIB/qt/QCustomPlot"
+#LIBS += -L"D:/dev/temp/gsl/GnuWin32/lib" -llibgsl -llibgslcblas -lm
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
